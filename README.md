@@ -6,6 +6,8 @@
 
 > Store transactions and keep up to date with your balance
 
+> [Click here to see the database model](https://dbdiagram.io/d/5ec2703039d18f5553ff5e91) (Under construction)
+
 # :closed_book: License
 
 Under development.
