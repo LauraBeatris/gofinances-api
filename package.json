@@ -12,8 +12,10 @@
   },
   "dependencies": {
     "@types/bluebird": "^3.5.31",
+    "@types/cors": "^2.8.6",
     "@types/csv-parse": "^1.2.2",
     "bluebird": "^3.7.2",
+    "cors": "^2.8.5",
     "csv-parse": "^4.8.8",
     "csv-parser": "^2.3.2",
     "dotenv": "^8.2.0",
