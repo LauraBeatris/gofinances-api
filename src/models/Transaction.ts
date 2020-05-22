@@ -31,15 +31,16 @@ class Transaction {
   @Column('uuid')
   category_id: string;
 
-  @ManyToOne(() => Category, {
+  @ManyToOne(() => Category, category => category.transactions, {
     onDelete: 'SET NULL',
     onUpdate: 'CASCADE',
+    eager: true,
   })
   @JoinColumn({
     name: 'category_id',
     referencedColumnName: 'id',
   })
-  category: string;
+  category: Category;
 
   @CreateDateColumn({
     type: 'timestamp',
