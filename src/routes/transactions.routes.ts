@@ -5,6 +5,7 @@ import TransactionsRepository from '../repositories/TransactionsRepository';
 import CreateTransactionService from '../services/CreateTransactionService';
 import DeleteTransactionService from '../services/DeleteTransactionService';
 import ImportTransactionsService from '../services/ImportTransactionsService';
+import UpdateTransactionService from '../services/UpdateTransactionService';
 
 import upload from '../middlewares/upload';
 
@@ -43,6 +44,25 @@ transactionsRouter.delete('/:id', async (request, response) => {
   const deleteTransactionService = new DeleteTransactionService();
   await deleteTransactionService.execute(id);
   return response.status(204).json({ status: 'success' });
+});
+
+transactionsRouter.put('/:id', async (request, response) => {
+  const { id } = request.params;
+  const { title, type, value, categoryTitle } = request.body;
+
+  const updateData = {
+    id,
+    title,
+    type,
+    value,
+    categoryTitle,
+  };
+
+  const updateTransactionService = new UpdateTransactionService();
+
+  const transaction = await updateTransactionService.execute(updateData);
+
+  return response.json(transaction);
 });
 
 transactionsRouter.post(
