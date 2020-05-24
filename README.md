@@ -8,6 +8,12 @@
 
 > [Click here to see the database model](https://dbdiagram.io/d/5ec2703039d18f5553ff5e91)
 
+[![Author](https://img.shields.io/badge/author-LauraBeatris-1E78F6?style=flat-square)](https://github.com/LauraBeatris)
+[![Languages](https://img.shields.io/github/languages/count/LauraBeatris/gofinances-api?color=%231E78F6&style=flat-square)](#)
+[![Stars](https://img.shields.io/github/stars/LauraBeatris/gofinances-api?color=1E78F6&style=flat-square)](https://github.com/LauraBeatris/gofinances-api/stargazers)
+[![Forks](https://img.shields.io/github/forks/LauraBeatris/gofinances-api?color=%231E78F6&style=flat-square)](https://github.com/LauraBeatris/gofinances-api/network/members)
+[![Contributors](https://img.shields.io/github/contributors/LauraBeatris/gofinances-api?color=1E78F6&style=flat-square)](https://github.com/LauraBeatris/gofinances-api/graphs/contributors)
+
 # :pushpin: Table of Contents
 
 * [Features](#rocket-features)
@@ -77,6 +83,6 @@ Check out the [contributing](https://github.com/LauraBeatris/gofinances-api/blob
 # :closed_book: License
 
 Released in 2020.
-This project is under the [MIT license](https://github.com/LauraBeatris/foodfy/master/LICENSE).
+This project is under the [MIT license](https://github.com/LauraBeatris/gofinances-api/master/LICENSE).
 
 Made with love by [Laura Beatris](https://github.com/LauraBeatris) 💜🚀
