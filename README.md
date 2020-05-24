@@ -57,7 +57,7 @@ Install [Postgres](https://www.postgresql.org/) to create a database or if you h
 
 # :runner: Getting Started
 
-Run the transactions in order to configure all the database schemas
+Run the transactions in order to configure the database schema
 
 ```yarn typeorm migration:run```
 
@@ -69,8 +69,7 @@ Run the following command in order to start the application in a development env
 
 **Question:** What are the tecnologies used in this project?
 
-**Answer:** The tecnologies used in this project are [NodeJS](https://nodejs.org/en/) + [Express Framework](http://expressjs.com/en/) to handle the server and [TypeORM](https://typeorm.io/#/) ORM for TypeScript and JavaScript
-
+**Answer:** The tecnologies used in this project are [NodeJS](https://nodejs.org/en/) + [Express Framework](http://expressjs.com/en/) to handle the server and [TypeORM](https://typeorm.io/#/) 
 
 # :bug: Issues
 
