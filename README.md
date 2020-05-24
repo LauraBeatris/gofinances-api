@@ -51,7 +51,7 @@ Install [Postgres](https://www.postgresql.org/) to create a database or if you h
 
 # :runner: Getting Started
 
-Run the transactions in order to configure all the database schemas
+Run the transactions in order to configure the database schema
 
 ```yarn typeorm migration:run```
 
