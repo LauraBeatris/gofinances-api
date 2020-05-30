@@ -8,7 +8,7 @@
 
 > [Click here to see the database model](https://dbdiagram.io/d/5ec2703039d18f5553ff5e91)
 
-> [![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=GoFinances%20API&uri=https%3A%2F%2Fgithub.com%2FLauraBeatris%2Fgofinances-api%2Fblob%2Fmaster%2F.github%2Fdocumentation.json)
+> [![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=GoFinances%20API&uri=https%3A%2F%2Fraw.githubusercontent.com%2FLauraBeatris%2Fgofinances-api%2Fmaster%2F.github%2Fdocumentation.json)
 
 [![Author](https://img.shields.io/badge/author-LauraBeatris-1E78F6?style=flat-square)](https://github.com/LauraBeatris)
 [![Languages](https://img.shields.io/github/languages/count/LauraBeatris/gofinances-api?color=%231E78F6&style=flat-square)](#)
