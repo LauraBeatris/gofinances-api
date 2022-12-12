@@ -19,7 +19,7 @@
     "csv-parse": "^4.8.8",
     "csv-parser": "^2.3.2",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-async-errors": "^3.1.1",
     "multer": "^1.4.2",
     "pg": "^8.0.0",
